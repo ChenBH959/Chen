@@ -47,7 +47,7 @@ int main()
 			}
 		}
 		int x, y;
-		x = 4;
+		x = 5;
 		y = a[0][0];
 		for (int i = 0; i<9; i++) {
 			for (int j = 0; j<9; j++) {
@@ -62,7 +62,6 @@ int main()
 				}
 			}
 		} 
-		cout << endl << endl;
 		for (int i = 0; i<9; i++) {
 			for (int j = 0; j<9; j++) {
 				outfile << a[i][j] << " ";
